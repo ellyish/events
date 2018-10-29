@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "CityFeed",
+    "description": "Discover cool events nearby",
+    "slug": "cityfeed",
+    "privacy": "public",
+    "sdkVersion": "30.0.0",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "primaryColor": "#DDDEE3",
+    "icon": "./assets/icon.png",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#000000"
+    },
+    "packagerOpts": {
+      "assetExts": [
+        "ttf",
+        "mp4"
+      ]
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "co.solostudio.events"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "versionCode": 2,
+      "package": "co.solostudio.events",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDVbDne9-Y15YcLownQT4KwLfKI7XU6dls"
+        }
+      }
+    }
+  }
+}

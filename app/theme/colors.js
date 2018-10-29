@@ -1,0 +1,45 @@
+import { colors as materialColors } from "../nativeComponents";
+const colors = {
+	zaitoonBlue: "#2A56C6",
+	zaitoonBlueDark: "#2A56C6",
+	zaitoonBlueLight: "#518AFF",
+	zaitoonBackground: "#f2f3f6",
+	mainBackground: "#DDDEE3",
+	gStart: "#24a4f1",
+	gradientStart: "#24a4f1",
+	gMiddle: "#268df1",
+	gradientMiddle: "#268df1",
+	gEnd: "#2877f0",
+	gradientEnd: "#2877f0",
+	blueDark: "#1e90ff",
+	blue: "#3F6BC7",
+	blueLight: "#518AFF",
+	blueCounter: "#4ebefc",
+	blueLightCounter: "#8bd4fd",
+	nele: "#207BAC",
+	white: "#ffffff",
+	white10: "#EEEEEE",
+	grayLight: "#bbbbbb",
+	gray: "#777777",
+	graySemiDark: "#313131",
+	grayDark: "#444444",
+	black: "#000000",
+	purple: "#6E38D5",
+	maron: "#D02487",
+	red: "#FF0000",
+	redLight: "#FF4B4B",
+	green: "#00FF00",
+	pink: "#FF00EE",
+	orangeLight: "#FFDC64",
+	transparent: "rgba(0,0,0,0)",
+	transparentLight: "rgba(52, 52, 52, 0.5)"
+};
+const labelColors = {
+	religion: "#EF5D46",
+	art: "#E34A79",
+	sport: "#6DDF7B",
+	music: "#F2994F",
+	technology: "#51A6DF",
+	default: "#C2272E"
+};
+export default { ...materialColors, ...colors, labelColors };
